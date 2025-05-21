@@ -21,10 +21,10 @@ jobs:
       - name: Instalar dependencias com uv
         run: |
           uv venv
-          source .venv/bin/active
+          source .venv/bin/activate
           uv pip install -e .
   
       - name: Rodar testes
         run : |
-          source .venv/bin/active
+          source .venv/bin/activate
           uv run pytest
