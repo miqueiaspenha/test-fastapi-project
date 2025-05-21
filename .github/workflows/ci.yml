@@ -20,7 +20,7 @@ jobs:
       
       - name: Instalar dependencias com uv
         run: |
-          run: uv venv
+          uv venv
           source .venv/bin/active
           uv pip install -e .
   
